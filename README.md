@@ -93,7 +93,7 @@ Use this table to track progress. Links go to the notebooks; metrics are pasted 
 
 | #  | Lesson (fast.ai)                                    | Notebook                                                    | Best metric | Status |
 |----|------------------------------------------------------|-------------------------------------------------------------|------------:|:------:|
-| 01 | Image classification (MNIST intro)                   | `notebooks/01_lesson1_image_classification_mnist.ipynb`     | `acc=…`     | [x]    |
+| 01 | Image classification (MNIST intro)                   | `notebooks/01_lesson1_image_classification_mnist.ipynb`     | `acc=0.9926`     | [x]    |
 | 02 | Augmentation + LR finder                             | `notebooks/02_lesson2_augmentation_and_lr_finder.ipynb`     | `acc=…`     | [ ]    |
 | 03 | Transfer learning & fine-tuning                      | `notebooks/03_lesson3_transfer_learning_and_tuning.ipynb`   | `acc=…`     | [ ]    |
 | 04 | Text classification (IMDb)                           | `notebooks/04_lesson4_text_classification_imdb.ipynb`       | `acc=…`     | [ ]    |
@@ -118,7 +118,7 @@ Use this table to track progress. Links go to the notebooks; metrics are pasted 
 **What I learned**:
 - Transfer learning basics (ResNet18), `fine_tune(1)`
 - Quick metrics logging pattern
-- How aug + image size affect accuracy/time
+- How aug + image size affect accuracy/time. I am on a CPU, so takes extra time
 
 </details>
 

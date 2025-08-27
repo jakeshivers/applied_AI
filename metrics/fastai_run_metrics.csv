@@ -1,0 +1,2 @@
+timestamp_utc,run_tag,model,epochs,valid_loss,accuracy
+2025-08-27T01:48:49,mnist_sample,resnet18,1,0.024457333609461784,0.9926398396492004

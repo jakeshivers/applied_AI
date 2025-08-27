@@ -1,0 +1,9 @@
+# venvs, caches, datasets, models
+.applied_ai/
+__pycache__/
+*.pyc
+data/
+artifacts/
+*.pkl
+.ipynb_checkpoints/
+.DS_Store

@@ -94,7 +94,7 @@ Use this table to track progress. Links go to the notebooks; metrics are pasted 
 | #  | Lesson (fast.ai)                                    | Notebook                                                    | Best metric | Status |
 |----|------------------------------------------------------|-------------------------------------------------------------|------------:|:------:|
 | 01 | Image classification (MNIST intro)                   | `notebooks/01_lesson1_image_classification_mnist.ipynb`     | `acc=0.9926`     | [x]    |
-| 02 | Augmentation + LR finder                             | `notebooks/02_lesson2_augmentation_and_lr_finder.ipynb`     | `acc=…`     | [ ]    |
+| 02 | Augmentation + LR finder                             | `notebooks/02_lesson2_augmentation_and_lr_finder.ipynb`     | `acc=1.0`     | [x]    |
 | 03 | Transfer learning & fine-tuning                      | `notebooks/03_lesson3_transfer_learning_and_tuning.ipynb`   | `acc=…`     | [ ]    |
 | 04 | Text classification (IMDb)                           | `notebooks/04_lesson4_text_classification_imdb.ipynb`       | `acc=…`     | [ ]    |
 | 05 | Multi-label images (Planet)                          | `notebooks/05_lesson5_multilabel_image_classification_planet.ipynb` | `f1=…` | [ ]    |

@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch Python File",
+            "program": "${workspaceFolder}/${input:pythonFile}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Debug Current File",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+  ]
+}
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "pythonFile",
+            "description": "Enter the relative path to the Python file you want to debug (e.g. neural-network/train_nn_tabular.py)"
+        }
+    ]
+}

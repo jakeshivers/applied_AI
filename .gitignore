@@ -7,3 +7,5 @@ artifacts/
 *.pkl
 .ipynb_checkpoints/
 .DS_Store
+explore/
+ut_prework/

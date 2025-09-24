@@ -6,6 +6,8 @@ Add "confirmation" to the end of the list.
 Remove the first "products" entry.
 '''
 
+list_var: list[int]
+
 visit_number: int = 2
 
 third_visit = visits[visit_number]
